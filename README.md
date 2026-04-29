@@ -1,12 +1,12 @@
-# Drip Writer
+# Human Writer
 
-A Python automation script that types a body of text at your cursor position, simulating realistic human typing behaviour — variable speed, natural errors, self-corrections, and periodic breaks.
+A Python automation script that types a body of text at your cursor position, simulating realistic Human typing behaviour — variable speed, natural errors, self-corrections, and periodic breaks.
 
 ---
 
 ## Overview
 
-Drip Writer takes your text as input and replays it keystroke by keystroke into whatever window has focus. Rather than typing at a fixed speed, it moves through three distinct phases — slow, fast, and unpredictable — and introduces the kinds of imperfections that characterise real human typing: adjacent-key errors, brief hesitations, partial deletions, and second-guessing.
+Human Writer takes your text as input and replays it keystroke by keystroke into whatever window has focus. Rather than typing at a fixed speed, it moves through three distinct phases — slow, fast, and unpredictable — and introduces the kinds of imperfections that characterise real Human typing: adjacent-key errors, brief hesitations, partial deletions, and second-guessing.
 
 All behaviour is controlled through a set of named constants at the top of the file. No configuration files, no arguments — just edit the values and run.
 
@@ -45,7 +45,7 @@ pip install pyautogui --user
 ## Usage
 
 ```bash
-python3 drip_writer.py
+python3 Human_writer.py
 ```
 
 1. Paste your text into the terminal prompt
@@ -59,7 +59,7 @@ python3 drip_writer.py
 
 ## Configuration
 
-All settings are defined as constants at the top of `drip_writer.py`.
+All settings are defined as constants at the top of `Human_writer.py`.
 
 ```python
 # Deletion depth on rethinks — the primary variable to tune
