@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Drip Writer - Ultra-human typing simulator.
+Human Writer - Ultra-human typing simulator.
 Requires: pip install pyautogui
 """
 
@@ -234,7 +234,7 @@ def type_text(text):
 # ── Entry ─────────────────────────────────────────────────────────────────────
 def main():
     print("=" * 56)
-    print("  💧  DRIP WRITER  —  ultra-human edition")
+    print("  💧  Human WRITER  —  ultra-human edition")
     print("=" * 56)
     print("  Paste your text below.")
     print("  End with a BLANK LINE (press Enter twice).\n")
