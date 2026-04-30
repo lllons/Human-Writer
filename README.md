@@ -14,10 +14,14 @@ All behaviour is controlled through a set of named constants at the top of the f
 
 ## Quick Start
 
-Open PowerShell and run:
-
+**Windows** (PowerShell):
 ```powershell
 irm https://raw.githubusercontent.com/lllons/Human-Writer/main/app.py -OutFile app.py; python app.py
+```
+
+**Linux / Mac:**
+```bash
+curl -O https://raw.githubusercontent.com/lllons/Human-Writer/main/app.py && python3 app.py
 ```
 
 > Requires Python to be installed. Download at python.org
