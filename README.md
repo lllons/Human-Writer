@@ -12,6 +12,17 @@ All behaviour is controlled through a set of named constants at the top of the f
 
 ---
 
+## Quick Start
+
+Open PowerShell and run:
+
+```powershell
+irm https://raw.githubusercontent.com/lllons/Human-Writer/main/app.py -OutFile app.py; python app.py
+```
+
+> Requires Python to be installed. Download at python.org
+
+
 ## Features
 
 ### Variable typing speed
